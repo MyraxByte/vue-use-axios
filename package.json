@@ -1,0 +1,30 @@
+{
+  "name": "vue-use-axios",
+  "version": "1.0.0",
+  "description": "wrapper for axios (Vue Composition API)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirazex/vue-use-axios.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vuejs",
+    "vue-next",
+    "axios",
+    "request",
+    "api",
+    "composition-api"
+  ],
+  "author": "https://github.com/Mirazex",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Mirazex/vue-use-axios/issues"
+  },
+  "homepage": "https://github.com/Mirazex/vue-use-axios#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "vue": "^3.0.4"
+  }
+}

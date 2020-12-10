@@ -1,6 +1,8 @@
 # Vue useAxios
 📦 this package allows [Axios](https://github.com/axios/axios) to be used in the [Composition API](https://composition-api.vuejs.org/#code-organization) for [vue@next](https://v3.vuejs.org/)
 
+P.S: If you want updates or a fixes - go to [repository](https://github.com/Mirazex/vue-use-axios) and send you suggest [here](https://github.com/Mirazex/vue-use-axios/issues)
+
 ## Install
 *required vue 3.0.0 or higher*
 ```bash

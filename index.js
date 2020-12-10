@@ -1,7 +1,7 @@
-const axios = require("axios");
-const { reactive } = require("vue");
+import axios from "axios";
+import { reactive } from "vue";
 
-module.exports.useAxios = (url, options) => {
+export const useAxios = (url, options) => {
   const state = reactive({
     url,
     payload: null,
@@ -44,3 +44,7 @@ module.exports.useAxios = (url, options) => {
     patch: (url, form) => request(url, "patch", form),
   };
 };
+
+export default {
+  useAxios
+}
